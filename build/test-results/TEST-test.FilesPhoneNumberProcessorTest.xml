@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.FilesPhoneNumberProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-28T17:45:47" hostname="vikass-MacBook-Pro.local" time="0.144">
+  <properties/>
+  <testcase name="testProcessPhoneNumbers" classname="test.FilesPhoneNumberProcessorTest" time="0.144"/>
+  <system-out><![CDATA[Reading phone numbers from file --> src/resources/test/test_phone_numbers.txt
+Reading phone numbers from file --> src/resources/test/test_phone_numbers_1.txt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

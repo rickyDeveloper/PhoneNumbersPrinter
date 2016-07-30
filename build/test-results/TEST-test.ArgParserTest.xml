@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.ArgParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-28T17:45:47" hostname="vikass-MacBook-Pro.local" time="0.004">
+  <properties/>
+  <testcase name="testParseArgsMethodWithDictionaryArgs" classname="test.ArgParserTest" time="0.002"/>
+  <testcase name="testParseArgsMethodWithFileArgs" classname="test.ArgParserTest" time="0.001"/>
+  <testcase name="testParseArgsMethodWithNoArgs" classname="test.ArgParserTest" time="0.001"/>
+  <system-out><![CDATA[Parsing program args
+Using dictionary path src/resources/dictionary.txt
+Parsing program args
+Using default dictionary path src/resources/dictionary.txt
+No program args passed
+Using default dictionary path src/resources/dictionary.txt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

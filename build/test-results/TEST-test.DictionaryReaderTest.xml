@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.DictionaryReaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-28T17:45:47" hostname="vikass-MacBook-Pro.local" time="0.07">
+  <properties/>
+  <testcase name="testParseArgsMethodWithNoArgs" classname="test.DictionaryReaderTest" time="0.07"/>
+  <system-out><![CDATA[Loading dictionary...
+Dictionary key 23 has word list = [AD]
+Dictionary key 5263 has word list = [KANE]
+Dictionary key 96753 has word list = [WORLD]
+Dictionary key 2255 has word list = [CALL]
+Dictionary key 2253 has word list = [ABLE]
+Dictionary key 63 has word list = [ME]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

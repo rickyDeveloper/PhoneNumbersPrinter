@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/'
+            exclude '**/test/**'
+        }
+    }
+
+    test {
+        java {
+            srcDir 'src/test'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.10'
+    testCompile "org.mockito:mockito-core:1.+"
+}

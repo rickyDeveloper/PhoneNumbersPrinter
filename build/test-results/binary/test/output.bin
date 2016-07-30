@@ -1,0 +1,17 @@
+Parsing program args
+3Using dictionary path src/resources/dictionary.txt
+Parsing program args
+;Using default dictionary path src/resources/dictionary.txt
+No program args passed
+;Using default dictionary path src/resources/dictionary.txt
+Loading dictionary...
+'Dictionary key 23 has word list = [AD]
++Dictionary key 5263 has word list = [KANE]
+-Dictionary key 96753 has word list = [WORLD]
++Dictionary key 2255 has word list = [CALL]
++Dictionary key 2253 has word list = [ABLE]
+'Dictionary key 63 has word list = [ME]
+NReading phone numbers from file --> src/resources/test/test_phone_numbers.txt
+PReading phone numbers from file --> src/resources/test/test_phone_numbers_1.txt
+Please enter phone numbers:
+BP.S:- When all phone numbers have been enterered, pls type 'exit'

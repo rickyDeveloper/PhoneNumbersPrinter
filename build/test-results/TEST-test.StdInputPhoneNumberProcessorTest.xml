@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.StdInputPhoneNumberProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-07-28T17:45:48" hostname="vikass-MacBook-Pro.local" time="0.012">
+  <properties/>
+  <testcase name="testProcessPhoneNumbers" classname="test.StdInputPhoneNumberProcessorTest" time="0.012"/>
+  <system-out><![CDATA[Please enter phone numbers:
+P.S:- When all phone numbers have been enterered, pls type 'exit'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

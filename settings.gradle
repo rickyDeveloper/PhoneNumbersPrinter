@@ -1,0 +1,2 @@
+//set parent as our root project
+rootProject.name = 'PhoneNumbersMatcher'

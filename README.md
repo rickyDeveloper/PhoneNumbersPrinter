@@ -1,5 +1,23 @@
 # PhoneNumbersPrinter
 
+## Documentation
+
+**Agentic CDD (Customer Due Diligence with AWS Strands)** — developer guides are published with [MkDocs](https://www.mkdocs.org/) from the [`docs/`](docs/) folder.
+
+- **Live site:** https://rickydeveloper.github.io/PhoneNumbersPrinter/ (after GitHub Pages is enabled; see below)
+- **Start reading:** [docs/cdd/AGENTIC_CDD_WITH_AWS_STRANDS.md](docs/cdd/AGENTIC_CDD_WITH_AWS_STRANDS.md)
+
+To build locally:
+
+```bash
+pip install -r requirements-docs.txt
+mkdocs serve   # http://127.0.0.1:8000
+```
+
+**Enable GitHub Pages (one-time):** Repository **Settings → Pages → Build and deployment → Source: GitHub Actions**. Pushes to `master` that touch `docs/` trigger [`.github/workflows/docs.yml`](.github/workflows/docs.yml).
+
+---
+
 ======= Problem Statement (based on my understanding) ===========
 Given:-
 

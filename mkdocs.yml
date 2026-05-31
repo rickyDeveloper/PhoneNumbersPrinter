@@ -1,0 +1,47 @@
+site_name: Ricky Developer Docs
+site_description: Developer documentation (Agentic CDD with AWS Strands)
+site_url: https://rickydeveloper.github.io/PhoneNumbersPrinter/
+repo_url: https://github.com/rickyDeveloper/PhoneNumbersPrinter
+repo_name: rickyDeveloper/PhoneNumbersPrinter
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Agentic CDD:
+    - Overview: cdd/README.md
+    - Developer guide: cdd/AGENTIC_CDD_WITH_AWS_STRANDS.md
+    - AWS Strands architecture: cdd/AWS_STRANDS_CDD.md
+    - Template manager: cdd/TEMPLATE_MANAGER.md
+    - Graph RFI routing spec: cdd/GRAPH_RFI_ROUTING_SPEC.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
